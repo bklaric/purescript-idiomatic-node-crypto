@@ -1,0 +1,30 @@
+{
+  "name": "purescript-idiomatic-node-crypto",
+  "homepage": "https://github.com/bklaric/purescript-idiomatic-node-crypto",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bklaric/purescript-idiomatic-node-crypto.git"
+  },
+  "authors": [
+    "Branimir Klarić <branimir.klaric.bk@gmail.com>"
+  ],
+  "description": "An idiomatic wrapper for Node's Crypto API.",
+  "main": "",
+  "keywords": [
+    "purescript",
+    "node",
+    "crypto"
+  ],
+  "license": "AGPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-idiomatic-node-buffer": "^0.4.0",
+    "purescript-idiomatic-node-errors": "^0.3.0"
+  }
+}
